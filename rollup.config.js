@@ -27,7 +27,7 @@ export default {
       exclude: 'node_modules/**',
     }),
     replace({
-      exclude: 'nodes_modules/**',
+      exclude: 'node_modules/**',
       ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
     }),
     (process.env.SERVE != undefined && serve({
