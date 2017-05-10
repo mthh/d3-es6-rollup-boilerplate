@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "watch": "rollup -c -w",
     "dev": "rollup -c -w --environment SERVE"
   }
 }
